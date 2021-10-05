@@ -9,22 +9,24 @@ https://www.markdownguide.org/cheat-sheet/
 ## Create GitHub Organization
 To create a GitHub Organization, which can have many repositories and members who can contribute to them: https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch
 
-## Create a personal access token for GitHub
+## Configure automated authentication to Git
 This step is necessary because Git is disabling password logins as of August 2021.
  
-If you have the `gh` GitHub CLI tool installed, you can alternatively run `gh auth login` to be guided through a web authentication method.
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
  
-1. Authenticate at https://github.com
-2. Click on your **GitHub username** in the top right corner
-3. Navigate to Settings > Developer Settings > Personal Access Tokens
-4. Click **Generate new token**
-5. Pick a suitable name and expiration date (your login will stop working after the expiration date)
-6. Set permissions for the token - for normal operations it's enough to select **Repo** permissions only
-7. Click **Generate Token**
-8. Use this token instead of your password for logging in to GitHub the CLI
-
-**Treat your token like a password, keep it safe!**
+or (less secure): https://stackoverflow.com/a/35942890
 
 ## Add the GitHub repository for the team webpage
-1. Clone the GitHub repository for the team page:
+1. Clone the GitHub repository for the team pages:
     `git clone https://github.com/ycit-team-terraformers/ycit-team-terraformers.github.io`
+    `git clone https://github.com/ycit-team-terraformers/ycit-team-terraformers-dotfiles`
+
+2. If all goes well, you should 2 new directories and you can enter them and 'git pull' to see that they're "Already up to date", example:
+    `cd ycit-team-terraformers-dotfiles`
+    `git pull`
+    
+3. To commit changes or new files, follow the usual:
+    `git add .`
+    `git commit -m "my commit message"`
+    `git push origin main`
+    * If you get prompted for authentication, follow the steps 
