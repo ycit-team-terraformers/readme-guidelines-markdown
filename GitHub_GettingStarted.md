@@ -3,6 +3,9 @@
 ## GitHub useful commands & tips
 https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
 
+## Markdown formatting help
+https://www.markdownguide.org/cheat-sheet/
+
 ## Create GitHub Organization
 To create a GitHub Organization, which can have many repositories and members who can contribute to them: https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch
 
