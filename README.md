@@ -32,13 +32,13 @@ See the **scripts** directory inside the **ycit-team-terraformers-dotfiles** rep
 
 # Resource Center
 
-### [docker Sample application](https://docs.docker.com/get-started/02_our_app/)
+- [docker Sample application](https://docs.docker.com/get-started/02_our_app/)
 
-### [Best practices for writing Dockerfile](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+- [Best practices for writing Dockerfile](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
-### [Configure GitHub actions](https://docs.docker.com/ci-cd/github-actions/)
+- [Configure GitHub actions](https://docs.docker.com/ci-cd/github-actions/)
 
-### [Docker file library](https://github.com/jessfraz/dockerfiles)
+- [Docker file library](https://github.com/jessfraz/dockerfiles)
 
 # Projects
 
