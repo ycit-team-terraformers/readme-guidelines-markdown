@@ -32,7 +32,7 @@ See the **scripts** directory inside the **ycit-team-terraformers-dotfiles** rep
 
 # Resource Center
 
-- [docker Sample application](https://docs.docker.com/get-started/02_our_app/)
+- [Docker Sample application](https://docs.docker.com/get-started/02_our_app/)
 
 - [Best practices for writing Dockerfile](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
