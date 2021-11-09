@@ -21,7 +21,7 @@ If you can't install software on your workstation (corporate or otherwise contro
 This should be installed where you run Linux (inside your WSL Ubuntu VM).
 - [Google Cloud SDK components](https://cloud.google.com/sdk/docs/install#linux)
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+- [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) _installed locally or running from a container_
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 - (optional - if you want to beautify and customize your shell prompt) [powerline-go](https://github.com/justjanne/powerline-go)
 
@@ -125,17 +125,35 @@ exit
 
 To install Minikube, run the linux distribution and execute the following commands:
 
+```
+ubuntu2004.exe
+```
+
 ## Download the latest version of Minikube
+
+Once in the Linux terminal style, run the following command
+
 ```
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 ```
+
 ## Make the binary executable
+
 ```
 chmod +x ./minikube
 ```
+
 ## Move the binary to your executable path
+
 ```
 sudo mv ./minikube /usr/local/bin/
+```
+## Run Minikube
+
+Open the Linux Distribution and type minikube 
+
+```
+minikube
 ```
 
 # Resource Center
@@ -150,8 +168,8 @@ sudo mv ./minikube /usr/local/bin/
 
 # Projects
 
-- Project 1 DevOps
-- Project 2
+- Project 1 DevOps Infrastructure
+
 
 # Team
 
