@@ -156,6 +156,11 @@ Open the Linux Distribution and type minikube
 minikube
 ```
 
+# Conventions
+
+- [Repository Naming Conventions](https://github.com/ycit-team-terraformers/ycit-team-terraformers.github.io/blob/main/Repository_Naming_Conventions.md)
+- [Repository Commits Conventions](https://github.com/ycit-team-terraformers/ycit-team-terraformers.github.io/blob/RepositoryCommitsConventions/Repository_Commits_Conventions.md)
+
 # Resource Center
 
 - [Docker Sample application](https://docs.docker.com/get-started/02_our_app/)
