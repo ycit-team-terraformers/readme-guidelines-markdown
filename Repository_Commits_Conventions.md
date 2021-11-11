@@ -6,6 +6,9 @@ Please follow this steps when pushing a new change to a repository:
 2. Make changes on your new branch and commit them 
 3. Push branch to github 
     `git push origin [name_of_your_new_branch]`
+4. On github check the branches of the corresponding repository, you should see your new branch there. Create a **Pull Request**.
+5. Once the pull request is authorized merge it to the **main** branch.
+6. If there are any merge conflicts, merge the **main** branch with your branch **locally** and then push it to the repository again. Then merge it into the **main** branch in the repository.
 
 # *Git Commit Style*
 
