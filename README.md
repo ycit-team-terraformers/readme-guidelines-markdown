@@ -156,6 +156,12 @@ Open the Linux Distribution and type minikube
 minikube
 ```
 
+## Value Stream Mapping
+Improvements:
+  1. Splitting infrastructure and application code into two repositories. This will simplify the workflow actions.
+  2. Ensure defining the provided version to all Terraform files. This ensures we are running the same version as we were having issues with code running different versions ot Terraform.
+  3. Approval process was taking too long. Assign two people per week for the approval process. We will also use better comments on the pull requests to make it easier for the approver to understand the changes.
+
 # Conventions
 
 - [Repository Naming Conventions](https://github.com/ycit-team-terraformers/readme-guidelines-markdown/blob/main/Repository_Naming_Conventions.md)
