@@ -181,6 +181,8 @@ Improvements:
 
 - Project 1 DevOps Infrastructure
 
+# SLO and SLI Analysis
+https://github.com/ycit-team-terraformers/ycit-team-terraformers.github.io.git/SLO.md
 
 # Team
 
